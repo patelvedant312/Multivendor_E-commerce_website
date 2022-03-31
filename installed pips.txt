@@ -1,0 +1,6 @@
+pip install django-responsive2
+pip install django-crispy-forms
+pip install pillow
+pip install pycryptodome
+
+py manage.py graph_models --pydot -a -g -o my_project_visualized.png
